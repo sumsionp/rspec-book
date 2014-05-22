@@ -4,7 +4,7 @@ Feature: code-breaker starts game
   I want to start a game
   So that I can break the code
 
-  Criteria: start game
+  Scenario: start game
     Given I am not yet playing
     When I start a new game
     Then I should see "Welcome to Codebreaker!"
